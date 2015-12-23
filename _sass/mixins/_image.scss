@@ -1,0 +1,8 @@
+// Responsive image
+//
+// Keep images from scaling beyond the width of their parents.
+@mixin img-responsive-vertical($display: block) {
+  display: $display;
+  max-height: 100%; // Part 1: Set a maximum relative to the parent
+  width: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+}

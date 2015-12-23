@@ -1,0 +1,72 @@
+body {
+  padding-top: $line-height-computed;
+  padding-bottom: $line-height-computed;
+}
+
+// Customize container
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container > hr {
+  margin: 30px 0;
+}
+
+// Side spacing for mobile first views
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+// Custom page header
+.header {
+  padding-bottom: $line-height-computed;
+
+  // Make the masthead heading the same height as the navigation
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 140px;
+    height: 40px;
+    background: url('../images/logo.png') no-repeat top left;
+
+    a {
+      display: block;
+      overflow: hidden;
+      text-indent: -9999px;
+    }
+  }
+}
+
+// Custom page footer
+.footer {
+  margin-top: $line-height-computed * 2;
+  padding-top: $line-height-computed - 1;
+  border-top: 1px solid #e5e5e5;
+  color: #777;
+}
+
+// Supporting marketing content
+.marketing {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// Responsive: Portrait tablets and up
+@media screen and (min-width: 768px) {
+  // Remove the padding we set earlier
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  // Space out the masthead
+  .header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
