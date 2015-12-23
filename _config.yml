@@ -1,4 +1,5 @@
 title: siwapp
+license: https://opensource.org/licenses/MIT
 
 language: en
 timezone: Europe/Madrid
@@ -7,5 +8,7 @@ encoding: utf-8
 highlighter: pygments
 kramdown:
     input: GFM
+sass:
+    style: compressed
 
 exclude: [README.md, Gemfile, Gemfile.lock]

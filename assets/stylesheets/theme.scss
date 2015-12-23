@@ -2,10 +2,11 @@
 ---
 @import 'variables';
 @import 'bootstrap';
-@import 'bootstrap/theme';
 @import 'hacks/ie10';
+@import 'fontawesome/font-awesome';
 
 @import 'mixins/image';
 @import 'layout';
-@import 'objects/jumbotron';
+@import 'objects/button';
+@import 'objects/misc';
 @import 'objects/text';

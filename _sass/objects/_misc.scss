@@ -1,0 +1,9 @@
+.siwapp-logo {
+  @include img-responsive();
+}
+
+.siwapp-jumbo {
+  .panel-body {
+    padding: 30px;
+  }
+}
