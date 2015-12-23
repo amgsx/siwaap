@@ -1,6 +1,6 @@
 body {
-  padding-top: $line-height-computed;
   padding-bottom: $line-height-computed;
+  padding-top: $line-height-computed;
 }
 
 // Customize container
@@ -17,8 +17,8 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-right: 15px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 // Custom page header
@@ -27,32 +27,34 @@ body {
 
   // Make the masthead heading the same height as the navigation
   h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 140px;
     height: 40px;
-    background: url('../images/logo.png') no-repeat top left;
+    margin-bottom: 0;
+    margin-top: 2px;
+    width: 140px;
 
     a {
       display: block;
       overflow: hidden;
-      text-indent: -9999px;
     }
   }
 }
 
+.siwapp-logo {
+  @include img-responsive();
+}
+
 // Custom page footer
 .footer {
-  margin-top: $line-height-computed * 2;
-  padding-top: $line-height-computed - 1;
   border-top: 1px solid #e5e5e5;
   color: #777;
+  margin-top: $line-height-computed * 2;
+  padding-top: $line-height-computed - 1;
 }
 
 // Supporting marketing content
 .marketing {
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 // Responsive: Portrait tablets and up
@@ -61,12 +63,12 @@ body {
   .header,
   .marketing,
   .footer {
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
   }
   // Space out the masthead
   .header {
-    margin-bottom: 30px;
     border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
   }
 }
