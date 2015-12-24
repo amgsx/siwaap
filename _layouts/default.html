@@ -7,7 +7,7 @@
 
   <title>{{ site.title }} - {{ page.title }}</title>
 
-  <link rel="stylesheet" href="/assets/stylesheets/theme.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/theme.css">
 </head>
 <body>
   <div class="container-fluid">
@@ -19,7 +19,10 @@
             <a href="/about/">About</a>
           </li>
           <li role="presentation"{% if page.menu_key == 'contact' %} class="active"{% endif %}>
-            <a href="/contact/">Contact</a>
+            <a href="/community/">Community</a>
+          </li>
+          <li role="presentation"{% if page.menu_key == 'help' %} class="active"{% endif %}>
+            <a href="/help/">Help</a>
           </li>
         </ul>
       </nav>
@@ -37,8 +40,8 @@
     </footer>
   </div>
 
-  <script src="/assets/javascripts/ie10.js"></script>
-  <script src="/assets/javascripts/jquery.min.js"></script>
-  <script src="/assets/javascripts/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascripts/ie10.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascripts/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascripts/bootstrap.min.js"></script>
 </body>
 </html>

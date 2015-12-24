@@ -12,3 +12,15 @@ sass:
     style: compressed
 
 exclude: [README.md, Gemfile, Gemfile.lock]
+
+collections:
+    help:
+        output: true
+        permalink: /:collection/:path/
+
+defaults:
+    - scope:
+        type: help
+      values:
+        layout: default
+        menu_key: help
