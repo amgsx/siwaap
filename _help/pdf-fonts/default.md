@@ -1,6 +1,8 @@
 ---
 title: Default PDF Fonts
 ---
+# Default PDF Fonts
+
 ## The fonts you can count on for your PDF.
 
 ### The default set of PDF fonts bundled with siwapp
@@ -64,11 +66,11 @@ As you can see, there are only twelve font-families of interest:
 
 The `serif-condensed` and `sans-serif-condensed` will give you a font which is a _condensed_ version of the standard one (either `serif` or `sans-serif`. you may find it useful if you need to keep your pdf not too big.
 
-Also, there is an 'extralight' version of the sans-serif font.
+Also, there is an _extralight_ version of the `sans-serif` font.
 
-The '-dejavu' suffix will use the DejaVu font , which is heavier but with wider character support
+The `-dejavu` suffix will use the DejaVu font, which is heavier but with wider character support.
 
-The '-raw' suffix will use the non-unicode but extra light core fonts.
+The `-raw` suffix will use the non-unicode but extra light core fonts.
 
 In order to use any of these variants, you just need to specify it as a font-family.
 
