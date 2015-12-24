@@ -11,7 +11,7 @@ title: Installation Guide
 - MySQL database server 5.0 or higher.
 - PHP 5.2 or higher (better 5.2.4 or higher).
 
-In case you plan to use the __recurring invoice__ feature, you need access to a scheduling application within your system (i.e. cron in Linux, or scheduled tasks in Windows).
+In case you plan to use the _recurring invoice_ feature, you need access to a scheduling application within your system (i.e. cron in Linux, or scheduled tasks in Windows).
 
 ## Installation
 
