@@ -1,7 +1,7 @@
 ---
 title: Unicode support for PDF in legacy siwapp
 ---
-# Unicode support for PDF in legacy siwapp
+# {{ page.title }}
 
 The siwapp's pdf generator comes from the well known library called [dompdf](https://github.com/dompdf/dompdf). That library is not perfect, particularly regarding unicode character support.
 

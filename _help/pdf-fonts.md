@@ -2,7 +2,7 @@
 title: PDF Fonts
 ---
 
-# PDF Fonts
+# {{ page.title }}
 
 PDF generation —specially if the intended users are from all around the world— can sometimes be tricky.
 

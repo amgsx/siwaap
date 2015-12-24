@@ -2,7 +2,7 @@
 title: PDF Templates
 ---
 
-# PDF Templates
+# {{ page.title }}
 
 ## So you want to make a printing template?
 

@@ -1,7 +1,7 @@
 ---
 title: Default PDF Fonts
 ---
-# Default PDF Fonts
+# {{ page.title }}
 
 ## The fonts you can count on for your PDF.
 

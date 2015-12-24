@@ -1,7 +1,7 @@
 ---
 title: Custom PDF Fonts
 ---
-# Custom PDF Fonts
+# {{ page.title }}
 
 ## Adding a Custom Font to the PDF Generator
 

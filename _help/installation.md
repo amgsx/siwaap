@@ -2,7 +2,7 @@
 title: Installation Guide
 ---
 
-# Installation Guide
+# {{ page.title }}
 
 ## Requirements
 

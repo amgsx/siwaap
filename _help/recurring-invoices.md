@@ -1,7 +1,7 @@
 ---
 title: What are Recurring Invoices?
 ---
-# What are Recurring Invoices?
+# {{ page.title }}
 
 From a mail conversation, a rough intro to recurring invoices:
 
