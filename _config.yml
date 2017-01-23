@@ -5,7 +5,6 @@ language: en
 timezone: Europe/Madrid
 encoding: utf-8
 
-highlighter: pygments
 kramdown:
   input: GFM
 
