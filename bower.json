@@ -1,0 +1,26 @@
+{
+  "name": "siwapp.github.io",
+  "homepage": "http://www.siwapp.com",
+  "authors": [
+    "Siwapp Team"
+  ],
+  "description": "Siwapp's Project Website",
+  "main": "",
+  "keywords": [
+    "siwapp",
+    "invoice",
+    "rails"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "v4.0.0-alpha.5"
+  }
+}

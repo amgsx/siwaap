@@ -1,0 +1,155 @@
+@import 'variables';
+@import "../bower_components/bootstrap/scss/bootstrap-flex";
+
+// Default overrides
+
+html, body {
+  background-color: $gray-lightest;
+}
+
+.container-fluid {
+  @include media-breakpoint-up(xl) {
+    max-width: map-get($container-max-widths, xl);
+  }
+}
+
+// Jumbotron
+
+.jumbotron-primary {
+  color: white;
+  background-color: $brand-primary;
+  padding-top: 4rem;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  .lead {
+    margin-bottom: 2rem;
+  }
+
+  .btn-secondary {
+    padding: 1rem 4rem;
+    font-size: 1.25rem;
+
+    @include hover-focus-active {
+      $hover-color: lighten($brand-secondary, 20%);
+      background-color: $hover-color;
+      border-color: $hover-color;
+    }
+  }
+}
+
+.jumbotron__column {
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    > * {
+      flex: 1 1 auto;
+    }
+  }
+}
+
+.jumbotron__image {
+  @include media-breakpoint-up(md) {
+    align-self: flex-start;
+  }
+  @include media-breakpoint-up(lg) {
+    align-self: flex-end;
+  }
+}
+
+// Boxes
+
+.box {
+  @extend .jumbotron;
+  @extend .jumbotron-fluid;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+// Footer
+
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: $gray-lightest;
+
+  .nav {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .nav-link {
+    color: $body-color;
+    font-weight: 500;
+
+    @include hover-focus-active {
+      color: $gray;
+    }
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+
+      & + .nav-link {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+// Features
+
+.features {
+  @include media-breakpoint-up(md) {
+    margin-bottom: -2rem;
+  }
+
+  .feature {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .feature__title {
+    margin-bottom: .8125rem;
+  }
+
+  .feature__description {
+    margin-bottom: 0;
+  }
+}
+
+// Text
+
+.text-secondary {
+  color: $brand-secondary;
+}
+
+a {
+  .text-muted & {
+    color: inherit;
+  }
+}
+
+// Buttons
+
+.btn {
+  font-weight: 300;
+}

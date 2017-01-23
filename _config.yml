@@ -7,20 +7,31 @@ encoding: utf-8
 
 highlighter: pygments
 kramdown:
-    input: GFM
-sass:
-    style: compressed
+  input: GFM
 
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude:
+  - .build
+  - .gitignore
+  - .ruby-version
+  - bower.json
+  - docker-compose.yml
+  - package.json
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.coffee
+  - README.md
+  - bower_components
+  - node_modules
 
 collections:
-    help:
-        output: true
-        permalink: /:collection/:path/
+  help:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
-    - scope:
-        type: help
-      values:
-        layout: default
-        menu_key: help
+  - scope:
+      type: help
+    values:
+      layout: default
+      menu_key: help

@@ -1,99 +1,79 @@
 ---
 layout: default
-title: 'Free Online Invoicing Software'
+title: Free Online Invoicing Software
+claim: An open source web application meant to help manage and create invoices in a simple, straightforward way.
 ---
 
-<div class="panel panel-default siwapp-jumbo">
-  <div class="panel-body">
-    <h2>{{ page.title }}</h2>
-    <p class="lead"><span class="highlight-text">An open source web application meant to help manage &amp; create invoices in a simple, straightforward way.</span></p>
-  </div>
-</div>
+<div class="jumbotron jumbotron-fluid jumbotron-primary pb-0 mb-0">
+  <div class="container-fluid">
+    <h1>{% include logo.svg %}</h1>
+    <div class="row">
+      <div class="col-xs-12 col-md-5 push-md-7 col-lg-6 push-lg-6 jumbotron__column">
 
-<div class="marketing">
+        <div>
+          <h2>{{ page.title }}</h2>
+          <p class="lead">{{ page.claim }}</p>
 
-  <div class="row">
-    <div class="col-sm-8">
-
-      <h3>Main Features</h3>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <h4>Simple &amp; straightforward</h4>
-          <p>It does only one thing, but does it very well.</p>
+          <a class="btn btn-secondary mb-1" href="https://siwapp-demo.herokuapp.com" target="_blank">Try it Now!</a>
+          <p class="small text-secondary">User: demo@example.com / Password: secret</p>
         </div>
-        <div class="col-sm-6">
-          <h4>Comfortable</h4>
-          <p>Everything is placed where you are expecting to find it.</p>
-        </div>
+
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h4>Pretty</h4>
-          <p>Obtain printable pdf versions of the invoices, with a professional look &amp; feel.</p>
-        </div>
-        <div class="col-sm-6">
-          <h4>Flexible</h4>
-          <p>Save drafts of your invoices and continue editing them later.</p>
-        </div>
+      <div class="col-xs-12 col-md-7 pull-md-5 col-lg-6 pull-lg-6 jumbotron__column">
+        <img class="img-fluid jumbotron__image" src="{{ '/assets/images/jumbotron.png' | relative_url }}">
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h4>Useful</h4>
-          <p>Manage invoices with different serial numbers (as rectification invoices).</p>
-        </div>
-        <div class="col-sm-6">
-          <h4>Secure</h4>
-          <p>Meets all your privacy and security requirements, and allows you to backup your data on your computer at any time.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h4>Anywhere</h4>
-          <p>Bill from any internet connection enabled place using a secure &amp; restricted access.</p>
-        </div>
-        <div class="col-sm-6">
-          <h4>Productivity - oriented</h4>
-          <p>Automatically generate invoices on a periodic basis.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h4>Supported</h4>
-          <p>It has a growing community of developers continuously working to add new features.</p>
-        </div>
-        <div class="col-sm-6">
-          <h4>Free, as in Speech</h4>
-          <p>siwapp is free for everyone. Checkout the <a href="{{ site.license }}">license</a>.</p>
-        </div>
-      </div>
-
-    </div>
-    <div class="col-sm-4">
-
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">Current Version (v0.4.2-beta)</h3>
-        </div>
-        <div class="panel-body">
-          <a href="https://github.com/siwapp/siwapp-sf1/releases/download/0.4.2-DEV/siwapp_0_4_2.beta.zip" class="btn btn-block btn-sm btn-primary"><i class="fa fa-windows"></i> Download for Windows</a>
-          <a href="https://github.com/siwapp/siwapp-sf1/releases/download/0.4.2-DEV/siwapp_0_4_2.beta.tar.gz" class="btn btn-block btn-sm btn-primary"><i class="fa fa-linux"></i> Download for Linux/UNIX</a>
-          <a href="/help/installation/" class="btn btn-block btn-sm btn-secondary">
-            <i class="fa fa-info"></i> Installation Guide
-          </a>
-          <a href="https://github.com/siwapp/siwapp-sf1" class="btn btn-block btn-sm btn-default"><i class="fa fa-github"></i> Github Project</a>
-        </div>
-      </div>
-
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">Development Version</h3>
-        </div>
-        <div class="panel-body">
-          <a href="https://github.com/siwapp/siwapp" class="btn btn-block btn-sm btn-default"><i class="fa fa-github"></i> Github Project</a>
-        </div>
-      </div>
-
     </div>
   </div>
 </div>
+<div class="box">
+  <div class="container-fluid">
+    <h3 class="text-md-center hidden-xs-up">Main Features</h3>
+
+    <div class="row features">
+      <div class="col-xs-12 col-md-6 col-lg-4 feature">
+        <h4 class="feature__title">Simple &amp; Straightforward</h4>
+        <p class="feature__description">It does only one thing, but does it very well. Everything is placed where you are expecting to find it.</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4 feature">
+        <h4 class="feature__title">Flexible</h4>
+        <p class="feature__description">Manage invoices with different serial numbers. Save drafts of your invoices and continue editing them later.</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4 feature">
+        <h4 class="feature__title">Printable Invoices</h4>
+        <p class="feature__description">Obtain printable PDF versions of the invoices, with a professional look.</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4 feature">
+        <h4 class="feature__title">Productivity-oriented</h4>
+        <p class="feature__description">Automatically generate invoices on a periodic basis. Bill from any internet connection enabled place.</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4 feature">
+        <h4 class="feature__title">REST API</h4>
+        <p class="feature__description">Manage customers and invoices programmatically directly from your application.</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-4 feature">
+        <h4 class="feature__title">Free, as in Speech</h4>
+        <p class="feature__description">It has a growing community of developers continuously working on new features.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="box footer">
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-xs-12 col-md-9 push-md-3 text-md-right">
+        <nav class="nav nav-inline">
+          <a class="nav-link" href="http://siwapp.uservoice.com">Request a Feature</a>
+          <a class="nav-link" href="https://groups.google.com/forum/#!forum/siwapp-users" title="Talk to others about the use of siwapp, installation issues…">Users Community</a>
+          <a class="nav-link" href="https://groups.google.com/forum/#!forum/siwapp-dev" title="Discussions about development and that kind of stuff.">Developers Community</a>
+        </nav>
+      </div>
+      <div class="col-xs-12 col-md-3 pull-md-9">
+        <span class="text-muted">Licensed under <a href="{{ site.license }}">MIT</a></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<a href="https://github.com/siwapp/siwapp"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
