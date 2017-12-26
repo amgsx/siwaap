@@ -34,3 +34,4 @@ defaults:
     values:
       layout: default
       menu_key: help
+theme: architect
